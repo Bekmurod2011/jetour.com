@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jetour Uzbekistan</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+    <div class="container-fluid">
+  <div class="nav-menu">
+    <div class="container">
+        <div class="nav-header mt-2 w-100 d-flex justify-content-between align-items-center">
+            <span></span>
+            <img class="w-50" src="https://jetour-uzbekistan.uz/assets/images/darklogo.png" alt="">
+            <i class="close_header fa-solid fa-xmark"></i>
+        </div>
+        <div class="navigation">
+            <a href="#">Модели</a>
+            <a href="#">О нас</a>
+            <a href="#">Новости</a>
+            <a href="#">Филиалы</a>
+            <a href="#">Конткаты</a>
+        </div>
+    </div>
+
+    <div class="nav-footer">
+        <div class="nav-content">
+            <button class="testDriveBtn">Тест драйв</button>
+            <p>Тел.: +998 (78) 113 13 78</p>
+            <p>Email: jetour@outlook.com</p>
+        </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav-cont">
+        <div class="menu_btn">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="logo">
+            <a href="./">
+                <img src="https://jetour-uzbekistan.uz/assets/images/Logo.png" alt="">
+            </a>
+        </div>
+        <div class="nav_btn">
+            <button class="testDriveBtn">Тест драйв</button>
+        </div>
+    </div>
+  </header>
+
+
+  <script>
+    let menu_btn = document.querySelector('.menu_btn');
+    let close_header = document.querySelector('.close_header');
+    let nav_menu = document.querySelector('.nav-menu');
+    let aHref = document.querySelectorAll('.navigation a');
+
+    menu_btn.addEventListener('click', () => {
+        nav_menu.classList.add('active');
+    })
+    close_header.addEventListener('click', () => {
+        nav_menu.classList.remove('active');
+    })
+    aHref.forEach(item => {
+        item.addEventListener('click', () => {
+            nav_menu.classList.remove('active');
+        })
+    })
+  </script>
+    </div>
+    <div class="container-fluid one">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item one active">
+            <img src="https://jetour-uzbekistan.uz/assets/main-bg-b5048ece.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item one">
+            <img src="https://jetour-uzbekistan.uz/assets/main-bg-b5048ece.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item one">
+            <img src="https://jetour-uzbekistan.uz/assets/main-bg-b5048ece.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid three">
+      <div class="container text-center">
+        <h1 class="fs-1">JETAUR DASHING</h1>
+        <button type="button" class="btn btn-danger" style="width: 200px !important; border-radius: 20px; margin-top: 10px;">Подробно</button>
+        <p>От $28 000 или $2800 за 10 месяцев</p>
+      </div>
+      <div class="container text-center four">
+        <h1 class="fs-1">Jetour – автомобиль, рождённый для путешествий</h1>
+        <p>Выберите направление, отправляйтесь в путь</p>
+      </div>
+    </div>
+    <div class="container-fluid m-0">
+      <img src="https://jetour-uzbekistan.uz/assets/images/birth.png" alt="" class="w-100">
+    </div>
+    <div class="container-fluid five text-center">
+      <div class="container text-center">
+        <h1 class="fs-1">Модели</h1>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col col-23">JETAUR X70</div>
+            <div class="col col-22">JETAUR X90</div>
+            <div class="col col-23">JETAUR DASHING</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row we">
+        <div class="col">
+          <img src="https://jetour-uzbekistan.uz/assets/images/model3.png" alt="" class="w-100">
+        </div>
+        <div class="col">
+          <img src="https://jetour-uzbekistan.uz/assets/images/model1.png" alt="" class="w-100">
+        </div>
+        <div class="col">
+          <img src="https://jetour-uzbekistan.uz/assets/images/model2.png" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark2 ">
+      <div class="container text-center">
+        <button type="button" class="btn btn-danger margin" style="width: 200px !important; border-radius: 20px; margin-top: 10px;">Подробно</button>
+        <p class="margins">От $28 000 или $2800 за 10 месяцев</p>
+      </div>
+    </div>
+    <div class="container-fluid six">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item height active">
+            <img src="https://jetour-uzbekistan.uz/assets/images/mauntain.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fs-1 title_1">Сопровождать вас на каждом трудном жизненном пути</h1>
+              <p class="fs-3 text-secondary">Выбери напровление, отправляйся в путь</p>
+            </div>
+          </div>
+          <div class="carousel-item height">
+            <img src="https://jetour-uzbekistan.uz/assets/images/mauntain.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Second slide label</h1>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item height">
+            <img src="https://jetour-uzbekistan.uz/assets/images/mauntain.svg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Third slide label</h1>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark2">
+      <div class="container text-center">
+        <h1 class="fs-1 h1t">JETOUR - это</h1>
+        <button type="button" class="btn btn-danger buttons" style="width: 200px !important; border-radius: 20px; margin-top: 10px;">ДИНАМИЧНОСТЬ</button>
+        <p class="text-secondary">подвижность, стремительность развития действия в</p>
+        <button class="btn_red about_btn2 ">ПРЕДПРИИМЧИВОСТЬ</button>
+      </div>
+      <div class="container seven">
+        <h1 class="fs-1 text-center">Качество, проверенно</h1>
+          <p class="fs-5 text-start text-secondary">Jetour – автомобильный бренд для путешествий, созданный в январе 2018 года. Бренд появился в ответ на современные тенденции автомобильного рынка и изменения потребительского спроса.Путешествия в широком смысле являются важной составляющей современного образа жизни: будь то поездки по городу, по стране или за ее пределами. Jetour разработал стратегию Travel+, согласно которой создает автомобили SUV-сегмента, предлагая современным людям и семьям разумные решения для активных путешествий.</p>
+      </div>
+    </div>
+    <div class="container-fluid eight">
+      <img src="https://jetour-uzbekistan.uz/assets/images/about3.png" class="w-100 imga" alt="">
+    </div>
+    <div class="container-fluid nine">
+      <div class="container d-flex justify-content-center">
+        <img src="https://jetour-uzbekistan.uz/assets/images/about_logo_1.png" alt="">
+        <img src="https://jetour-uzbekistan.uz/assets/images/about_logo_2.png" alt="">
+      </div>
+      <div class="container">
+        <p class="fs-4 text-secondary p">Название бренда состоит из комбинации английских слов JET («реактивный самолет») и TOUR («путешествие»). Оно подразумевает, что путешествие на автомобиле может быть таким же приятным и исключительно комфортным, как полет на частном самолете.Бренд ориентирован на людей, которыеусердно работают в различных сферах и в конечном итоге добиваются своих целей, открывая новые горизонты, обретая гармоничную и счастливую жизнь.</p>
+        <h1 class="fs-1 p text-light text-center">Последние новости</h1>
+        <div class="card" style="width: 23rem; height: 350px;background: #1D1D1D !important;color: #fff;border-radius: 20px !important;">
+          <img src="https://jetour-uzbekistan.uz/assets/photos/right.jpg" class="card-img-top" style="border-radius: 20px 20px 0 0px !important;" alt="...">
+          <div class="card-body">
+            <h1 class="card-text fs-3">Yangilik test</h1>
+            <p class="d-flex justify-content-end o text-secondary">2023-11-25 16:11:56</p>
+          </div>
+        </div>
+
+        <div class="card" style="background: #1D1D1D !important;color: #fff;border-radius: 20px !important; margin-top: 40px;">
+          <div class="card-body">
+            <p class="d-flex fs-5 justify-content-end o text-secondary">Сведения о ценах на продукцию бренда JETAUR, содержащиеся на сайте, носят исключительно информационный характер. Указанные цены могут отличаться от действительных цен дилеров JETAUR. Для получения подробной информации об актуальных ценах на продукцию JETAUR обращайтесь к дилерам JETAUR. Приобретение любой продукции бренда JETAUR осуществляется в соответствии с условиями индивидуального договора купли-продажи. Представленные изображения автомобиля могут отличаться от реализуемого.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid ten">
+      <div class="branch" id="branch">
+        <h1 class="title_2 text-center">Филиалы</h1>
+        <div class="container">
+          <div class="row pb-5">
+            <div class="col-12 col-lg-5 filial mt-5">
+              <h3 class="mt-2 active id_1" onclick="changeMap(`https://maps.google.com/maps?q=-19.76578469238,133.1094296875&hl=es&z=14&output=embed`, 'id_1')">A.Qahhor MFY, Do'stlik ko'chas 11/77</h3>
+              <h3 class="mt-2 id_2" onclick="changeMap(`https://maps.google.com/maps?q=-19.76578469238,133.1094296875&hl=es&z=14&output=embed`, 'id_2')">Shahriston metro, Amir Temur 129B</h3>
+              <h3 class="mt-2 id_4" onclick="changeMap(`https://maps.google.com/maps?q=-25.08090159366,146.54827524771&hl=es&z=14&output=embed`, 'id_4')">Toshkent shahar, Xalqar do'stligi</h3>
+              <h3 class="mt-2 id_6" onclick="changeMap(`https://maps.google.com/maps?q=41.304376480634,69.246482849121&hl=es&z=14&output=embed`, 'id_6')">Test uichun</h3>
+            </div>
+            <div class="col-12 col-lg-7 mt-5">
+              <iframe class="w-100 map" src="https://maps.google.com/maps?q=-19.76578469238,133.1094296875&hl=es&z=14&output=embed" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">    
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <img src="https://jetour-uzbekistan.uz/assets/images/loader.png" alt="">
+        </div>
+        <div class="footer-social">
+          <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://instagram.com/Alyarov.faxriyor/">
+            <img src="https://jetour-uzbekistan.uz/assets/Vector-1-27fc41c8.svg" alt>
+          </a>
+          <a href="https://t.me/hongqiuzb">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <a href="https://Facebook.com">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://whatsapp.com">
+            <img src="https://jetour-uzbekistan.uz/assets/Vector-4-351b9ca5.svg" alt>
+          </a>
+        </div>
+        <div class="footer-email">
+          <h5>Тел.: +998781131378</h5>
+          <h5>Email: faxriyor2085@gmail.com</h5>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
